@@ -59,7 +59,7 @@ function service($window) {
 			fr: "Découvre les photos postées autours de toi"
 		},
 		"first-feature-description": {
-			en: "You can see your friends pictures and public pictures on the map. If a post appears in red, its content is not enabled. If it appears in turquoise, you're free to go! If it appears in turquoise, you're free to go! If it appears in turquoise, you're free to go! If it appears in turquoise, you're free to go! If it appears in turquoise, you're free to go!",
+			en: "You can see your friends pictures and public pictures on the map. If a post appears in red, its content is not enabled.  If it appears in turquoise, you're free to go!",
 			fr: "Découvrez les photos publics et celles de vos amis sur la carte. Si un post apparait en rouge, alors son contenu est inaccessible. Si il apparait en turquoise, tu peux le visionner "
 		},
 		"second-feature-title": {
@@ -87,48 +87,48 @@ function service($window) {
 			fr: "ANTOINE Kevin"
 		},
 		"member1-description": {
-			en: "Role of this member",
-			fr: "Role de ce membre"
+			en: "Developpeur back-end et web"
+			fr: "Developpeur back-end et web"
 		},
 		"member2-name": {
 			en: "RICARD Robin",
 			fr: "RICARD Robin"
 		},
 		"member2-description": {
-			en: "Role of this member",
-			fr: "Role de ce membre"
+			en: "back-end javascript ninja",
+			fr: "back-end javascript ninja"
 		},
 		"member3-name": {
 			en: "KITANE Mehdi",
 			fr: "KITANE Mehdi"
 		},
 		"member3-description": {
-			en: "Role of this member",
-			fr: "Role de ce membre"
+			en: "IOS dev",
+			fr: "IOS dev"
 		},
 		"member4-name": {
-			en: "KITANE Mehdi",
-			fr: "KITANE Mehdi"
+			en: "SIVANANDAN Bruno",
+			fr: "SIVANANDAN Bruno"
 		},
 		"member4-description": {
-			en: "Role of this member",
-			fr: "Role de ce membre"
+			en: "Graphical designer",
+			fr: "Graphical designer"
 		},
 		"member5-name": {
 			en: "COMTE Valentin",
 			fr: "COMTE Valentin"
 		},
 		"member5-description": {
-			en: "Role of this member",
-			fr: "Role de ce membre"
+			en: "IOS dev",
+			fr: "IOS dev"
 		},
 		"member6-name": {
 			en: "BENHMIDA Karim",
 			fr: "BENHMIDA Karim"
 		},
 		"member6-description": {
-			en: "Role of this member",
-			fr: "Role de ce membre"
+			en: "IOS dev",
+			fr: "IOS dev"
 		},
 		"description": {
 			en:"SnapAround is a geo-localized network which allow people close geographically to communicate and to meet each other",
