@@ -87,7 +87,7 @@ function service($window) {
 			fr: "ANTOINE Kevin"
 		},
 		"member1-description": {
-			en: "Developpeur back-end et web"
+			en: "Developpeur back-end et web",
 			fr: "Developpeur back-end et web"
 		},
 		"member2-name": {
