@@ -8,5 +8,11 @@
     "grunt-contrib-nodeunit": "~0.4.1",
     "grunt-contrib-uglify": "^0.9.1",
     "grunt-contrib-watch": "^0.6.1"
+  },
+  "dependencies": {
+    "express": "^4.12.3",
+    "express-logger": "0.0.3",
+    "gzippo": "^0.2.0",
+    "logger": "0.0.1"
   }
 }
