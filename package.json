@@ -10,6 +10,8 @@
     "grunt-contrib-watch": "^0.6.1"
   },
   "dependencies": {
+    "finalhandler": "0.3.5"
+    "serve-static": "1.9.2"
     "express": "^4.12.3",
     "express-logger": "0.0.3",
     "gzippo": "^0.2.0",
