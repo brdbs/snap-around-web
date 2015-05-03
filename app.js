@@ -19,15 +19,14 @@
 
 // var server = connect().use(connect.static( '/'));
 
-// var port = process.env.PORT || 3000;
-// server.listen(port, function() {
-// 	console.log("Server running");
-// });
+// 
 
 var connect = require('connect');
 var serveStatic = require('serve-static'); 
 var app = connect(); 
 
 app.use(serveStatic('./')); 
-
-app.listen(5000);
+var port = process.env.PORT || 3000;
+app.listen(port, function() {
+	console.log("Server running");
+});
