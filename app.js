@@ -7,3 +7,4 @@ app.use(logger({path: "logs/log.txt"}));
 app.use(gzippo.staticGzip("" + __dirname + "/dist"));
 app.listen(process.env.PORT || 5000);
 console.log("Listening on port 5000");
+console.log("https://localhost:5000");
