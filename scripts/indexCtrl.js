@@ -13,4 +13,4 @@ function controller(Translate, $scope) {
 
 controller.$inject = deps;
 
-app.controller('indexCtrl',controller);
+app.controller(controllername,controller);
