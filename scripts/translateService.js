@@ -55,26 +55,34 @@ function service($window) {
 			fr: "Comment l'utiliser"
 		},
 		"first-feature-title": {
+			en: "Participate in an unique experiment",
+			fr: "Participez à un évenement unique"
+		},
+		"first-feature-description": {
+			en: " Try out our new features! Share a 24h visible photo on \"24h de l'INSA  festival\" on May 22,23,24th. Don't forget to give us some feedback! ",
+			fr: " Essayez nos nouvelles fonctionnalitées. Partagez des photos visibles 24h à l'occasion des 24h de l'INSA les 22,23 et 24 Mai 2015 et donnez nous vos impressions."
+		},
+		"second-feature-title": {
 			en: "See pictures around you",
 			fr: "Découvre les photos postées autours de toi"
 		},
-		"first-feature-description": {
+		"second-feature-description": {
 			en: "You can see your friends pictures and public pictures on the map. If a post appears in red, its content is not enabled.  If it appears in turquoise, you're free to go!",
 			fr: "Découvrez les photos publics et celles de vos amis sur la carte. Si un post apparait en rouge, alors son contenu est inaccessible. Si il apparait en turquoise, tu peux le visionner "
 		},
-		"second-feature-title": {
+		"third-feature-title": {
 			en: "Move to famous places to get more content",
 			fr: "Rend toi sur les lieux les plus fréquentés pour avoir accès à plus de contenu"
 		},
-		"second-feature-description": {
+		"third-feature-description": {
 			en: "When you are close enough to a post, you can enblock its content, and its comments",
 			fr: "Quand tu es assez proche d'un post, tu peux en débloquer le contenu, et ses commentaires"
 		},
-		"third-feature-title": {
+		"fourth-feature-title": {
 			en: "Collect posts and see them later",
 			fr: "Ajoute des posts à ta collection pour les visionner plus tard"
 		},
-		"third-feature-description": {
+		"fourth-feature-description": {
 			en: "Add some interesting posts to your collections while many others stays where they are and will never be seen or commented elsewhere",
 			fr: "Ajoutez certains posts intéressants à votre collection, alors que beaucoup d'autres posts ne seront jamais vus ni commentés autrepart."
 		},
