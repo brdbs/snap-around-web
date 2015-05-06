@@ -6,7 +6,7 @@ var deps = ['$window'];
 
 function service($window) {
 	var action = new Object();
-    var language = 'en';
+    var language = 'fr';
 	if($window.localStorage.language){
 		var language = $window.localStorage.language;
 	}
@@ -43,48 +43,56 @@ function service($window) {
 			fr: "En savoir plus"
 		},
 		"banner-title": {
-			en: "What if your content could only be accessed from the exact place where you took it.",
-			fr: "Et si vos contenus étaient accessibles uniquement à l'endroit de leur prises..."
+			en: "What if your content could only be accessed from the exact place where you posted it.",
+			fr: "Et si vos contenus étaient disponibles uniquement depuis l'endroit ou vous les postez..."
 		},
 		"banner-description": {
-			en:"would it make a difference ?",
+			en:"would it make a difference ? ",
 			fr:"cela ferait-il une différence ?"
 		},
 		"banner-button": {
-			en: "How to use it",
-			fr: "Comment l'utiliser"
+			en: "Download on app store",
+			fr: "Télécharger sur l'app store"
 		},
 		"first-feature-title": {
-			en: "Participate in an unique experiment",
-			fr: "Participez à un évenement unique"
+			en: "Participate in a unique experiment",
+			fr: "Participe à un évenement unique"
 		},
 		"first-feature-description": {
 			en: " Try out our new features! Share a 24h visible photo on \"24h de l'INSA  festival\" on May 22,23,24th. Don't forget to give us some feedback! ",
-			fr: " Essayez nos nouvelles fonctionnalitées. Partagez des photos visibles 24h à l'occasion des 24h de l'INSA les 22,23 et 24 Mai 2015 et donnez nous vos impressions."
+			fr: " Essaye nos nouvelles fonctionnalitées. Partage des photos visibles 24h à l'occasion des 24h de l'INSA les 22,23 et 24 Mai 2015 et donne nous tes impressions."
 		},
 		"second-feature-title": {
 			en: "See pictures around you",
 			fr: "Découvre les photos postées autours de toi"
 		},
 		"second-feature-description": {
-			en: "You can see your friends pictures and public pictures on the map. If a post appears in red, its content is not enabled.  If it appears in turquoise, you're free to go!",
-			fr: "Découvrez les photos publics et celles de vos amis sur la carte. Si un post apparait en rouge, alors son contenu est inaccessible. Si il apparait en turquoise, tu peux le visionner "
+			en: "You can see your friends pictures and public pictures on the map. If a post appears in red, its content is not enabled.  If it appears in turquoise, it's accesible",
+			fr: "Découvre les photos publics et celles de tes amis sur la carte. Si un post apparait en rouge, alors son contenu est inaccessible. Si il apparait en turquoise, il est accesible."
 		},
 		"third-feature-title": {
-			en: "Move to famous places to get more content",
+			en: "Go to famous places to get more content",
 			fr: "Rend toi sur les lieux les plus fréquentés pour avoir accès à plus de contenu"
 		},
 		"third-feature-description": {
-			en: "When you are close enough to a post, you can enblock its content, and its comments",
+			en: "When you are close enough to a post, you can unblock its content, and its comments",
 			fr: "Quand tu es assez proche d'un post, tu peux en débloquer le contenu, et ses commentaires"
 		},
-		"fourth-feature-title": {
+		"first-usecase-title": {
 			en: "Collect posts and see them later",
 			fr: "Ajoute des posts à ta collection pour les visionner plus tard"
 		},
-		"fourth-feature-description": {
-			en: "Add some interesting posts to your collections while many others stays where they are and will never be seen or commented elsewhere",
-			fr: "Ajoutez certains posts intéressants à votre collection, alors que beaucoup d'autres posts ne seront jamais vus ni commentés autrepart."
+		"first-usecase-description": {
+			en: "Never miss something that happened next to you. SnapAround is specially designed for events such as festivals and conventions.",
+			fr: "Ne rate plus les évenements qui t'entourent. SnapAround est spéciallement pensé pour couvrir les festivals et les conventions de toute sorte."
+		},
+		"second-usecase-title": {
+			en: "SnapAround me",
+			fr: "SnapAround autours de moi"
+		},
+		"second-usecase-description": {
+			en: "Get closer to your neighborhood and share usefull things around you",
+			fr: "Apprend a connaitre ton voisinnage et partage des choses utiles"
 		},
 		"more-feature-title": {
 			en: "See how it can be used",
@@ -138,10 +146,6 @@ function service($window) {
 			en: "IOS dev",
 			fr: "IOS dev"
 		},
-		"description": {
-			en:"SnapAround is a geo-localized network which allow people close geographically to communicate and to meet each other",
-			fr:"SnapAround est un réseau social géolocalisé qui incite les personnes proches géographiquement à communiquer et à se rencontrer"
-		}
 	}
 
 	return action;

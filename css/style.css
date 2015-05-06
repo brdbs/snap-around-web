@@ -623,6 +623,7 @@
 
 				.box.style1 .inner
 				{
+					font-size: 1.5em;
 				}
 
 					.box.style1 .inner > :last-child
