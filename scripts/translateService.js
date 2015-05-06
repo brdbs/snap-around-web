@@ -111,48 +111,48 @@ function service($window) {
 			fr: "ANTOINE Kevin"
 		},
 		"member1-description": {
-			en: "Developpeur back-end et web",
-			fr: "Developpeur back-end et web"
+			en: "Dev Back-end & Web",
+			fr: "Dev Back-end & Web"
 		},
 		"member2-name": {
 			en: "RICARD Robin",
 			fr: "RICARD Robin"
 		},
 		"member2-description": {
-			en: "back-end javascript ninja",
-			fr: "back-end javascript ninja"
+			en: "Chief Technology Officer",
+			fr: "Chief Technology Officer"
 		},
 		"member3-name": {
 			en: "KITANE Mehdi",
 			fr: "KITANE Mehdi"
 		},
 		"member3-description": {
-			en: "IOS dev",
-			fr: "IOS dev"
+			en: "Front-end Lead Dev",
+			fr: "Front-end Lead Dev"
 		},
 		"member4-name": {
 			en: "SIVANANDAN Bruno",
 			fr: "SIVANANDAN Bruno"
 		},
 		"member4-description": {
-			en: "Graphical designer",
-			fr: "Graphical designer"
+			en: "Motion designer",
+			fr: "Motion designer"
 		},
 		"member5-name": {
 			en: "COMTE Valentin",
 			fr: "COMTE Valentin"
 		},
 		"member5-description": {
-			en: "IOS dev",
-			fr: "IOS dev"
+			en: "MARCOM & Operations",
+			fr: "MARCOM & Operations"
 		},
 		"member6-name": {
 			en: "BENHMIDA Karim",
 			fr: "BENHMIDA Karim"
 		},
 		"member6-description": {
-			en: "IOS dev",
-			fr: "IOS dev"
+			en: "IOS Dev",
+			fr: "IOS Dev"
 		},
 	}
 
