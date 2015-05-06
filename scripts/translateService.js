@@ -94,6 +94,14 @@ function service($window) {
 			en: "Get closer to your neighborhood and share usefull things around you",
 			fr: "Apprend a connaitre ton voisinnage et partage des choses utiles"
 		},
+		"third-usecase-title": {
+			en: "Keep in touch with your friends",
+			fr: "Reste en contact avec tes amis"
+		},
+		"third-usecase-description": {
+			en: "When a friend of yours post a new photo, you receive a push notification",
+			fr: "Quand un ami poste une nouvelle photo, tu recois une notification"
+		},
 		"more-feature-title": {
 			en: "See how it can be used",
 			fr: "Découvre comment l'utiliser"
