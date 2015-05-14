@@ -9,9 +9,12 @@ function controller(Translate, $scope) {
 		$scope.translate = Translate;
 	};
 	activate();
+	$scope.mailSend = false;
 
 	$scope.sendMail = function() {
 		//send mail to me
+		$scope.mailSend = true;
+
 	}
 }
 

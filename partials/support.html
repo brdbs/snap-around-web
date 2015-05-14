@@ -1,6 +1,12 @@
 <!-- Header -->
 <div ng-controller="supportCtrl">
-	<article class="container box style3">
+	<article class="container box style1" ng-show="mailSend">
+	<p>Merci d'avoir pris contact avec l'équipe de snaparound. Nous vous recontacterons dès que possible.</p>
+	<a href="/"><p>Retour à la page principale</p></a>
+	</article>
+
+
+	<article class="container box style3" ng-show="!mailSend">
 		<header>
 			<h2>Support</h2>
 			<p>Fill out this form if you want to contact our team.</p>
