@@ -1,0 +1,30 @@
+<!-- Header -->
+<div ng-controller="supportCtrl">
+	<article class="container box style3">
+		<header>
+			<h2>Support</h2>
+			<p>Fill out this form if you want to contact our team.</p>
+		</header>
+		<form method="post" action="#">
+			<div class="row 50%">
+				<div class="6u"><input ng-model="mail.name" type="text" class="text" name="name" placeholder="Name"></div>
+				<div class="6u"><input ng-model="mail.email" type="text" class="text" name="email" placeholder="Email"></div>
+			</div>
+			<div class="row 100%">
+				<div class="12u"><input ng-model="mail.object" type="text" class="text" name="object" placeholder="Object"></div>
+			</div>
+			<div class="row 50%">
+				<div class="12u">
+					<textarea name="message" ng-model="mail.message" placeholder="Message"></textarea>
+				</div>
+			</div>
+			<div class="row">
+				<div class="12u">
+					<ul class="actions">
+						<li><input ng-click="sendMail()" value="Send Message"></li>
+					</ul>
+				</div>
+			</div>
+		</form>
+	</article>
+</div>
